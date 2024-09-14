@@ -1,9 +1,20 @@
-### Formação Desenvolvedor FullStack Júnior
+# Atividade de Estrutura de Dados em Java
 
-## A +prati
-Uma iniciativa social, que nasceu em 2020, da inquietação de empresários do setor de TI do RS, no que tange ao descompasso entre o número de vagas disponíveis no mercado e de pessoas qualificadas para assumir essas posições. Cientes de que a área de TI é a que mais cresce e gera empregos no mundo, esses empresários, então, uniram-se em um movimento cujo nome faz alusão à mais para a TI, e passaram a dar formação e qualificação gratuita para as pessoas que desejam ingressar no setor, seja por aptidão ou vontade de mudar de carreira, mas visando a construção de um futuro na área da Tecnologia.
+Este repositório contém implementações de exercícios de estruturas de dados em Java. 
+Cada exercício é implementado em uma pasta separada, e este README fornece instruções sobre como compilar e executar cada um.
 
-## Objetivo:
-Proporcionar, através do conhecimento, oportunidades de empregos vinculados à
-tecnologia. E com isso, causar um impacto positivo nas pessoas e empresas atreladas ao
-projeto.
+## Estrutura do Projeto
+
+- **`gerenciadorTarefas/`**: Gerenciador de tarefas usando uma lista simplesmente encadeada.
+- **`historicoNavegacao/`**: Simulação de histórico de navegação com uma lista simplesmente encadeada.
+- **`controleReversao/`**: Sistema de controle de reversão (undo) com uma lista simplesmente encadeada.
+- **`editorTextoUndoRedo/`**: Editor de texto com operações de undo e redo usando uma lista duplamente encadeada.
+- **`jogoCartas/`**: Jogo de cartas representado por uma lista duplamente encadeada.
+- **`filaBanco/`**: Simulador de fila de atendimento em um banco.
+- **`filaImpressao/`**: Sistema de gerenciamento de trabalhos de impressão.
+- **`filaProcessos/`**: Simulação de fila de processos prontos para execução.
+
+## Como Compilar e Executar
+
+- **Compilação:** Use `javac -d bin src/**/**/*.java` para compilar todos os arquivos `.java`.
+- **Execução:** Use `java -cp bin [pacote].[ClassePrincipal]` para executar cada exercício, substituindo `[pacote].[ClassePrincipal]` pelo caminho completo da classe principal.
